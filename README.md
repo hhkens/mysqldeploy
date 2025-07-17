@@ -28,6 +28,30 @@
 
 请输入版本编号[1|2|3|4|5|0]: 
 ```
+# 登录
+可使用快捷方式登录
+```
+# 命令行输入 3306_mysql_login 输入 root 密码即可登录
+[root@test-02 mysql_install_v2]# 3306_mysql_login 
+Enter password: # 输入密码即可
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 6
+Server version: 5.7.44-log MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+```
+快捷登录脚本目录: /usr/local/bin/3306_mysql_login 
 
 # 目录结构
 安装目录: /usr/local/
@@ -56,7 +80,7 @@ mysql 5.7 安装过程
     5) MySQL-8.4
     0) 退出程序
 
-请输入版本编号[1|2|3|4|5|0]: 3
+请输入版本编号[1|2|3|4|5|0]: 3  # 选择安装mysql5.7
 请选择端口[默认: 3306]: 
 请选择数据目录[默认: /usr/local/mysql57/mysql3306 ]: 
 请选择内存大小(单位: GB)[默认: 1GB]: 
