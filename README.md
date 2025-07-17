@@ -59,10 +59,10 @@ mysql>
 mysql> 
 mysql> 
 ```
-快捷登录脚本目录: /usr/local/bin/3306_mysql_login 
+快捷登录脚本位置: /usr/local/bin/3306_mysql_login 
 
 # 目录结构
-安装目录: /usr/local/
+安装目录: /usr/local/mysqlxx  # xx: 版本号
 数据目录: 可随意修改
 端口: 可随意修改
 配置文件: 数据目录下的 etc/my.cnf
