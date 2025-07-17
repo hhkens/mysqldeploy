@@ -11,7 +11,7 @@
 交互式安装，程序会从官网下载安装包，并自动化安装。
 ```
 # 下载安装命令
-wget https://github.com/hhkens/mysqldeploy/releases/download/untagged-1cd6d55ac536f54d07a1/mysqldeploy_2.5.06.zip
+wget https://github.com/hhkens/mysqldeploy/releases/download/2.5.06/mysqldeploy_2.5.06.zip
 
 # 解压
 unzip mysqldeploy_2.5.06.zip
