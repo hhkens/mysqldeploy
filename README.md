@@ -10,7 +10,14 @@
 # 用法
 交互式安装，程序会从官网下载安装包，并自动化安装。
 ```
-[root@test-02 mysql_install_v2]# ./mysqldeploy 
+# 下载安装命令
+wget https://github.com/hhkens/mysqldeploy/releases/download/untagged-1cd6d55ac536f54d07a1/mysqldeploy_2.5.06.zip
+
+# 解压
+unzip mysqldeploy_2.5.06.zip
+
+# 部署 MySQL
+[root@localhost]# ./mysqldeploy 
 基础检查已完成
 
 请选择操作类型: 
@@ -33,7 +40,7 @@
 可使用快捷方式登录
 ```
 # 命令行输入 3306_mysql_login 输入 root 密码即可登录
-[root@test-02 mysql_install_v2]# 3306_mysql_login 
+[root@localhost]# 3306_mysql_login 
 Enter password: # 输入密码即可
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 6
@@ -63,7 +70,7 @@ mysql>
 # 安装过程
 mysql 5.7 安装过程
 ```
-[root@test-02 mysql_install_v2]# ./mysqldeploy   # 执行命令
+[root@localhost]# ./mysqldeploy   # 执行命令
 基础检查已完成
 
 请选择操作类型: 
