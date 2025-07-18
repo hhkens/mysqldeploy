@@ -1,8 +1,7 @@
 module mysqldeploy
 
-go 1.23.0
+go 1.23.11
 
-toolchain go1.23.11
 
 require (
 	github.com/go-sql-driver/mysql v1.9.3
